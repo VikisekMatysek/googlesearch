@@ -3,23 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Pokročilé vyhledávání – Google</title>
+  <link rel="stylesheet" href="styleadv.css">
 </head>
 <body>
 
   <div class="nav">
-    <a href="index.html">Home</a>
-    <a href="images.html">Images</a>
+    <a href="index.html">Domů</a>
+    <a href="images.html">Obrázky</a>
   </div>
 
-  <div class="stred">
-    <h1>Google</h1>
-    <form action="https://www.google.com/search">
-      <input type="text" name="q">
-      <input type="submit" value="Search">
-    </form>
-  </div>
+  <h1 class="advanced-title">Pokročilé vyhledávání</h1>
+
+  <form class="advanced-form" action="https://www.google.com/search" method="get">
+    <label for="all">Všechna tato slova:</label>
+    <input type="text" id="all" name="as_q">
+
+    <label for="exact">Přesně tato fráze:</label>
+    <input type="text" id="exact" name="as_epq">
+
+    <label for="any">Libovolné z těchto slov:</label>
+    <input type="text" id="any" name="as_oq">
+
+    <label for="none">Žádné z těchto slov:</label>
+    <input type="text" id="none" name="as_eq">
+
+    <input type="submit" value="Pokročilé vyhledávání">
+  </form>
 
 </body>
 </html>
