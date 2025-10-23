@@ -32,8 +32,8 @@ html, body {
   text-align: center;
 }
 
-h1 {
-  font-size: 64px;
+.stred h1 {
+  font-size: 80px;
   color: #0cbd06;
   font-weight: normal;
   margin-bottom: 20px;
