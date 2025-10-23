@@ -9,6 +9,7 @@ html, body {
   position: absolute;
   top: 15px;
   right: 20px;
+  gap: 80px;
 }
 
 .nav a {
