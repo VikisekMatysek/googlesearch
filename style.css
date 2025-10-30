@@ -122,3 +122,13 @@ input[type="submit"]:hover {
     text-align: center;
   }
 }
+footer{
+  text-align: center;
+  margin-top: 360px;
+}
+.test{
+  width: 150px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 30px;
+}

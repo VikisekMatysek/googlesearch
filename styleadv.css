@@ -1,4 +1,4 @@
-/* === Základní nastavení === */
+
 html, body {
   height: 100%;
   margin: 0;
@@ -7,7 +7,6 @@ html, body {
   color: #202124;
 }
 
-/* === Navigace === */
 .nav {
   position: fixed;
   top: 20px;
@@ -25,7 +24,7 @@ html, body {
   transition: color 0.2s ease, transform 0.2s ease;
   display: inline-block;
   padding: 10px 22px;
-  background-color: #34a853; /* zelená jako vyhledávací tlačítko */
+  background-color: #34a853;
   color: white;
   font-size: 16px;
   font-weight: 500;
@@ -93,7 +92,7 @@ html, body {
 }
 
 .advanced-form input[type="submit"] {
-  grid-column: 1 / 3; /* 🔥 roztáhne přes oba sloupce */
+  grid-column: 1 / 3; 
   justify-self: center;
   margin-top: 35px;
   background-color: #54b86f;
